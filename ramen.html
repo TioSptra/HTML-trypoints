@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYOKAKU RAMEN</title>
+    <link rel="icon" href="/src/img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/src/css/ramen.css">
+</head>
+<body>
+    <header>
+        <img src="/src/img/menu.jpg" alt="menu" width="300" height="200">
+        <h1>GYOKAKU RAMEN</h1>
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#order">Order</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="ourmenu">
+            <hr/>
+            <section id="menu">
+                <article class="menu">
+                    <figure>
+                        <img src="/src/img/jagung.jpg" alt="menu jagung" width="300" height="200">
+                    </figure>
+                        <h3>Ramen jagung</h3>
+                        <p>Ramen Jagung is a delicious noodle dish that combines soft ramen noodles with sweet corn in a rich and flavorful broth. The creamy taste of corn adds a unique twist to traditional ramen, making it both comforting and satisfying. It is often served with toppings such as boiled eggs, green onions, seaweed, and sliced meat, creating a warm and tasty meal perfect for any time of the day.</p>
+                        <p>the price is <mark>$29000</mark></p>
+                    <hr/>
+                </article>
+
+                <article class="menu">
+                    <figure>
+                        <img src="/src/img/jamur.jpg" alt="menu jamur" width="300" height="200">
+                    </figure>
+                        <h3>Ramen jamur</h3>
+                        <p>Ramen Jamur is a delicious noodle dish that combines soft ramen noodles with fresh mushrooms in a rich and flavorful broth. The earthy taste of mushrooms adds a unique twist to traditional ramen, making it both comforting and satisfying. It is often served with toppings such as boiled eggs, green onions, seaweed, and sliced meat, creating a warm and tasty meal perfect for any time of the day.</p>
+                        <p>the price is <mark>$23000</mark></p>
+                    <hr/>
+                </article>
+
+                <article class="menu">
+                    <figure>
+                        <img src="/src/img/miso.jpg" alt="menu miso" width="300" height="200">
+                    </figure>
+                    <h3>Ramen miso</h3>
+                    <p>Ramen Miso is a delicious noodle dish that combines soft ramen noodles with a rich and savory miso-based broth. The umami flavor of miso adds depth and complexity to the dish, making it both satisfying and comforting. It is often served with toppings such as boiled eggs, green onions, seaweed, and sliced meat, creating a warm and tasty meal perfect for any time of the day.</p>
+                    <p>the price is <mark>$18000</mark></p>
+                    <hr/>
+                </article>
+
+                <article class="menu">
+                    <figure>
+                        <img src="/src/img/tonkotsu.jpg" alt="menu tonkotsu" width="300" height="200">
+                    </figure>
+                    <h3>Ramen tonkotsu</h3>
+                    <p>Ramen Tonkotsu is a delicious noodle dish that combines soft ramen noodles with a rich and creamy pork bone broth. The hearty and flavorful broth is the defining characteristic of this dish, creating a warm and satisfying meal. It is often served with toppings such as sliced pork, green onions, seaweed, and soft-boiled eggs, making it a popular choice for those seeking a filling and comforting bowl of ramen.</p>
+                    <p>the price is <mark>$33000</mark></p>
+                    <hr/>
+                </article>
+                <article class="menu">
+                    <figure>
+                        <img src="/src/img/ramen.webp" alt="menu ramen" width="300" height="200">
+                    </figure>
+                    <h3>Ramen OG</h3>
+                    <p>Ramen OG is a delicious noodle dish that combines soft ramen noodles with a rich and creamy pork bone broth. The hearty and flavorful broth is the defining characteristic of this dish, creating a warm and satisfying meal. It is often served with toppings such as sliced pork, green onions, seaweed, and soft-boiled eggs, making it a popular choice for those seeking a filling and comforting bowl of ramen.</p>
+                    <p>the price is <mark>$20000</mark></p>
+                    <hr/>
+                </article>
+            </section>
+        </div>
+        <div class="orderby">
+            <section id="order">
+                <hr/>
+                <h2>Place Your Order</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+                    <label for="Room">Room:</label>
+                    <input type="text" id="Room" name="Room" required>
+                    <br><br>
+                    <label for="ramen">Select Ramen:</label>
+                    <select id="ramen" name="ramen">
+                        <option value="jagung">Ramen Jagung</option>
+                        <option value="jamur">Ramen Jamur</option>
+                        <option value="miso">Ramen Miso</option>
+                        <option value="tonkotsu">Ramen Tonkotsu</option>
+                    </select>
+                    <input type="number" id="qty" name="qty" min="1" max="10" value="1">
+                    <br><br>
+                    <textarea id="notes" name="notes" cols="36" rows="5" placeholder="Additional notes..."></textarea>
+                    <br><br>
+                    <input type="submit" value="Place Order">
+                </form>
+            </section>
+        </div>
+        <hr/>
+        <section id="contact">
+            <h2 class="kontak">Contact Us</h2>
+            <p>For inquiries and reservations, please contact us at:</p>
+            <ul>
+                <li>Phone: +62 123-456-7890</li>
+                <li>Email: tikitako@gmail.com</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <hr/>
+        <p>Copyright &copy; 2024 GYOKAKU RAMEN. All rights reserved.</p>
+    </footer>
+</body>
+</html>
